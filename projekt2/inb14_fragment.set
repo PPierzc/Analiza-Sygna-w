@@ -1,0 +1,25 @@
+# OBLIGATORY PARAMETERS
+nameOfDataFile  ./inb14_fragment.bin
+nameOfOutputDirectory  ./
+writingMode            CREATE 
+samplingFrequency      128
+numberOfChannels       1
+selectedChannels       1
+numberOfSamplesInEpoch 2560
+selectedEpochs         1-30
+typeOfDictionary       OCTAVE_FIXED
+energyError            0.1 100.0 
+randomSeed             auto 
+reinitDictionary       NO_REINIT_AT_ALL 
+maximalNumberOfIterations 50
+energyPercent             95.0
+MP                        SMP
+scaleToPeriodFactor       1.0 
+pointsPerMicrovolt        1.0 
+
+# ADDITIONAL PARAMETERS
+normType                  L2 
+diracInDictionary         YES 
+gaussInDictionary         YES 
+sinCosInDictionary        YES 
+gaborInDictionary         YES 
